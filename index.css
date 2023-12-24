@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: rgb(247, 83, 83);
+}
+
+.container {
+  background: linear-gradient(to right, rgb(209, 192, 195), pink);
+
+  background-size: cover;
+  max-width: 100%;
+}
+
+li {
+  display: inline-block;
+  margin: 0;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-bar {
+  height: 45px;
+  width: 50px;
+}
+
+.burger-img {
+  height: 600px;
+  width: 750px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+.lorem-h {
+  margin-bottom: 70px;
+  letter-spacing: 8px;
+  font-size: 45px;
+}
+
+.click-me-btn {
+  background-color: rgb(247, 83, 83);
+  color: white;
+  border-width: 0;
+  height: 32px;
+  width: 140px;
+}
+
+.description {
+  margin-bottom: 50px;
+}
+
+.lorem-container {
+  margin-top: 80px;
+  margin-right: 100px;
+}
+
+.images-2 {
+  height: 180px;
+  width: 200px;
+}
+
+.images-2-container {
+  margin-left: 50px;
+  margin-top: 150px;
+}
+
+.mister-img {
+  height: 363px;
+  width: 230px;
+  margin-top: 150px;
+}
+
+.images-container {
+  display: flex;
+  gap: 25px;
+}
+
+.lorem-container-2 {
+  background-color: rgb(240, 105, 105);
+  width: 400px;
+  height: 200px;
+  margin-top: 250px;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+.container-flex {
+  display: flex;
+  gap: 85px;
+}
+
+.lorem-container-2 p,
+h1 {
+  margin-bottom: 15px;
+}
+
+.lorem-container-2 h1 {
+  letter-spacing: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-2 {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .lorem-container,
+  .mister-img,
+  .lorem-container-2 {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .images-2-container {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .lorem-container-2 {
+    margin-top: 50px;
+    width: auto;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+
+  .container-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) and (max-height: 800px) {
+  .container {
+    background: linear-gradient(to right, rgb(209, 192, 195), pink);
+    max-width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .click-me-btn {
+    margin-bottom: 10px;
+  }
+
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .container-2,
+  .container-3,
+  .container-flex {
+    flex-direction: column;
+  }
+
+  .burger-img {
+    height: auto;
+    width: 270px;
+  }
+
+  .lorem-h {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .click-me-btn {
+    width: 120px;
+  }
+
+  .images-container {
+    margin-left: 42px;
+  }
+
+  .lorem-container {
+    margin-top: 50px;
+    margin-right: 0;
+    padding-left: 15px;
+  }
+
+  .images-2-container {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .images-2-container img {
+    width: 270px;
+  }
+
+  .mister-img {
+    height: auto;
+    width: 270px;
+    margin-top: 50px;
+  }
+
+  .images-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .lorem-container-2 {
+    width: auto;
+    padding-left: 15px;
+    padding-top: 15px;
+
+    margin: 15px;
+  }
+}
